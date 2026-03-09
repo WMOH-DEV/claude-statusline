@@ -1,5 +1,5 @@
 {
-  "name": "@wmoh-dev/claude-statusline",
+  "name": "@wael-mohamed/claude-statusbar",
   "version": "1.0.0",
   "description": "Beautiful two-line statusline for Claude Code with quota bars, session cost, and context usage",
   "bin": {

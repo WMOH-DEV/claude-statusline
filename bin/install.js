@@ -111,7 +111,7 @@ ${BOLD}What you'll see:${R}
 ${DIM}Line 1:${R} 📁 project │ 🤖 Opus 4.6 │ 🌿 main │ 💰 $0.42 │ ⏱ 1h 23m │ 📊 42% ctx
 ${DIM}Line 2:${R} ⏳ 5h: ●●●●●○○○○○ 48% (2h 30m) │ 📅 7d: ●●●●○○○○○○ 40% │ 💳 $16/$20
 
-${DIM}To uninstall:${R} npx @wmoh-dev/claude-statusline --uninstall
+${DIM}To uninstall:${R} npx @wael-mohamed/claude-statusbar --uninstall
 `);
 }
 
@@ -123,9 +123,9 @@ if (args.includes("--uninstall") || args.includes("-u")) {
 } else if (args.includes("--help") || args.includes("-h")) {
   printBanner();
   console.log(`${BOLD}Usage:${R}
-  npx @wmoh-dev/claude-statusline            Install statusline
-  npx @wmoh-dev/claude-statusline --uninstall Remove statusline
-  npx @wmoh-dev/claude-statusline --help      Show this help
+  npx @wael-mohamed/claude-statusbar            Install statusline
+  npx @wael-mohamed/claude-statusbar --uninstall Remove statusline
+  npx @wael-mohamed/claude-statusbar --help      Show this help
 `);
 } else {
   install();

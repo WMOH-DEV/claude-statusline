@@ -1,0 +1,27 @@
+{
+  "name": "@wmoh-dev/claude-statusline",
+  "version": "1.0.0",
+  "description": "Beautiful two-line statusline for Claude Code with quota bars, session cost, and context usage",
+  "bin": {
+    "claude-statusline": "bin/install.js"
+  },
+  "keywords": [
+    "claude",
+    "claude-code",
+    "statusline",
+    "status-bar",
+    "cli"
+  ],
+  "author": "Wael Elsaid",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/WMOH-DEV/claude-statusline"
+  },
+  "files": [
+    "bin/"
+  ],
+  "engines": {
+    "node": ">=16"
+  }
+}
